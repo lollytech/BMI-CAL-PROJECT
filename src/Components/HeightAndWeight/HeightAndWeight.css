@@ -1,0 +1,65 @@
+.heightAndweight{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.heightAndWeightSpan{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.7rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.underlined{
+    color: rgb(233, 134, 14);
+    text-decoration: underline;
+} 
+
+.notUnderlined:hover{
+    cursor: pointer;
+}
+
+.heightDisplay{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom right, rgb(95, 95, 173), rgb(184, 50, 184));
+    border-radius: 12px;
+}
+
+.heiAndWeiLabel{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.heiAndWeiInput{
+    outline: none;
+    border: none;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0.4rem 0.5rem;
+}
+
+.heiAndWeiInput::placeholder{
+    opacity: 40%;
+    font-size: smaller;
+}
+
+.feetStyle{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
